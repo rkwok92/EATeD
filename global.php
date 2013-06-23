@@ -14,7 +14,7 @@
   $display_msgs = false;
 
   //if in prod, would not want log file to be accessible via http
-  $log_dir = "/home/whit/public/whitchapman.com/app/";
+  $log_dir = "/Users/michaeladams/code/EATeD/";
   $log_path = $log_dir."guest.log";
 
 	$db_user = "eateduser";

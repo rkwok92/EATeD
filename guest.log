@@ -1,0 +1,9 @@
+20130622 20:51:41|Executed Query: <font color=blue>select role_id, role_name from roles order by role_id</font>
+20130622 20:51:51|Executed Query: <font color=blue>select skill_id, skill_name from vw_role_to_skill where role_id=1 order by skill_id</font>
+20130622 20:51:51|Executed Query: <font color=blue>select company_name from vw_company_to_role where role_id=1 order by company_name</font>
+20130622 20:51:52|Executed Query: <font color=blue>select skill_name, provider_name, course_name, level, url from vw_courses where skill_id=1 order by skill_id</font>
+20130622 20:51:54|Executed Query: <font color=blue>select skill_name, provider_name, course_name, level, url from vw_courses where skill_id=3 order by skill_id</font>
+20130622 20:51:54|Executed Query: <font color=blue>select skill_name, provider_name, course_name, level, url from vw_courses where skill_id=4 order by skill_id</font>
+20130622 20:51:56|Executed Query: <font color=blue>select skill_name, provider_name, course_name, level, url from vw_courses where skill_id=1 order by skill_id</font>
+20130622 20:51:57|Executed Query: <font color=blue>select skill_name, provider_name, course_name, level, url from vw_courses where skill_id=2 order by skill_id</font>
+20130622 20:51:58|Executed Query: <font color=blue>select skill_name, provider_name, course_name, level, url from vw_courses where skill_id=1 order by skill_id</font>
