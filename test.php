@@ -1,12 +1,14 @@
+
+	
 <?php
   include "global.php";
 ?>
 <html>
   <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>PROD PAGE</title>
+  <title>PROD PAGE</title>
   </head>
-  <body>
+<body>
 <?php
 
   print "<h1>EATed Test Page - ".date("m/d/Y  H:i:s", time())."</h1>";
@@ -49,3 +51,5 @@
 ?>
   </body>
 </html>
+
+}
